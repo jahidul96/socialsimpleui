@@ -1,0 +1,45 @@
+.sidebar {
+    flex: 3;
+    height: 95vh;
+    overflow-y: scroll;
+    position: sticky;
+    top: 0;
+}
+
+.sideContainer {
+    padding: 20px;
+}
+
+.sideBarProfileDiv {
+    display: flex;
+    align-items: center;
+}
+
+.sidebarProfileImg {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.pName {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.flatItems {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.textSpan {
+    margin-left: 10px;
+}
+
+.groupContainer {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}

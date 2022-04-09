@@ -1,0 +1,100 @@
+.feedarea {
+    flex: 6;
+}
+
+.feedContainer {
+    width: 480px;
+    margin: 30px auto;
+
+}
+
+.ProfileImg {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.postWrapper {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    max-height: 150px;
+
+}
+
+.profileContainerWrapper {
+    display: flex;
+    align-items: center;
+
+}
+
+.inputDiv {
+    margin-left: 8px;
+    background-color: #EEEEEE;
+    width: 100%;
+    padding: 8px;
+    border-radius: 30px;
+}
+
+.inputDiv>input {
+    width: 100%;
+    background-color: inherit;
+    outline: none;
+    border: none;
+}
+
+hr {
+    margin: 10px 0;
+    border: 1px solid #EEEEEE
+}
+
+.iconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.flexItemIcon {
+    display: flex;
+    align-items: center;
+}
+
+.flexItemIcon>span {
+    margin-right: 5px;
+}
+
+
+.postmainWrapper {
+    background-color: #fff;
+    padding: 15px 20px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+.pSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pTextWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.pTextWrapper>span {
+    margin-left: 7px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.imgWrapper {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.imgWrapper>img {
+    width: 100%;
+}

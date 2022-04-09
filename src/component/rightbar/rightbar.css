@@ -1,0 +1,16 @@
+.rightbar {
+    flex: 3;
+    height: 95vh;
+    overflow-y: scroll;
+    position: sticky;
+    top: 0;
+}
+
+.rightWrapper {
+    padding: 20px;
+}
+
+.contactTextWrapper {
+    display: flex;
+    justify-content: space-between;
+}
